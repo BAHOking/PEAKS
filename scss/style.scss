@@ -1,0 +1,275 @@
+@import "reset";
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body {
+    background-color: white;
+    transition: all 0.5s;
+}
+
+.button__theme {
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 32px;
+    right: 20px;
+    bottom: 10%;
+    border-radius: 50%;
+    z-index: 9999;
+    transition: all 0.5s;
+    background: linear-gradient(to right, #da9e09, #912a53);
+}
+
+.header {
+    background-image: url(../images/m-h-day.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-height: 700px;
+    border-bottom-right-radius: 600px 200px;
+    transition: all 0.5s;
+
+    &_heading {
+        padding-top: 50px;
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 72px;
+        color: #2c2f3c;
+        font-weight: bold;
+        width: 500px;
+        transition: all 0.5s;
+    }
+
+    &_text {
+        font-family: "Hind", sans-serif;
+        padding-top: 40px;
+        color: #2c2f3c;
+        width: 650px;
+        transition: all 0.5s;
+    }
+
+    &_heading-span {
+        background-color: #14a0c7;
+        transition: all 0.5s;
+    }
+
+    &_button-login {
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+        padding-top: 45px;
+        padding-bottom: 100px;
+    }
+
+    &_button {
+        width: 110px;
+        height: 40px;
+        color: #fff;
+        background-color: #699900;
+        font-family: "Source Sans Pro", sans-serif;
+        border: none;
+        border-radius: 3px;
+        transition: all 0.5s;
+    }
+
+    &_login {
+        font-family: "Source Sans Pro", sans-serif;
+        text-decoration: underline;
+        color: #fff;
+        padding-top: 8px;
+        padding-right: 70px;
+    }
+}
+
+.landing-logo {
+    display: flex;
+    padding-top: 30px;
+
+    &__text {
+        color: #2c2f3c;
+        font-family: "Source Sans Pro", sans-serif;
+        margin-left: 15px;
+        line-height: 20px;
+        text-align: center;
+        font-size: 22px;
+        line-height: 15px;
+        padding-top: 5px;
+        transition: all 0.5s;
+    }
+
+    &__text-span {
+        font-size: 10px;
+    }
+}
+
+.section {
+    &_text {
+        color: #2c2f3c;
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: bold;
+        font-size: 28px;
+        text-align: center;
+        padding-top: 25px;
+        transition: all 0.5s;
+    }
+    &_text-span {
+        background-color: #14a0c7;
+        transition: all 0.5s;
+    }
+    &_card_wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &_card {
+        display: flex;
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #21232e;
+        border-radius: 3px;
+        color: #fff;
+        width: 650px;
+        transition: all 0.5s;
+    }
+
+    &_card_img {
+        width: 230px;
+        height: auto;
+        border-radius: 3px;
+    }
+
+    &_card_heading {
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 17px;
+        padding-left: 50px;
+    }
+
+    &_card_text {
+        width: 370px;
+        font-family: "Hind", sans-serif;
+        color: rgb(204, 204, 204);
+        font-size: 11px;
+        padding-left: 50px;
+    }
+
+    &_link {
+        display: block;
+        font-family: "Source Sans Pro", sans-serif;
+        text-decoration: underline;
+        text-align: center;
+        font-size: 10px;
+        color: rgb(204, 204, 204);
+        padding-top: 10px;
+        padding-left: 50px;
+    }
+
+    &_banner-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 70px;
+    }
+
+    &_banner {
+        display: flex;
+        justify-content: space-evenly;
+        background: linear-gradient(to right, #689801, #2b59dc);
+        border-radius: 4px;
+        width: 750px;
+        transition: all 0.5s;
+    }
+
+    &_banner_heading {
+        color: #2c2f3c;
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 10px;
+        transition: all 0.5s;
+    }
+
+    &_banner_text {
+        font-family: "Hind", sans-serif;
+        color: rgb(204, 204, 204);
+        font-size: 11px;
+        padding-bottom: 25px;
+    }
+
+    &_banner_button {
+        margin-left: -33px;
+        margin-top: 33px;
+        width: 110px;
+        height: 40px;
+        background-color: #699900;
+        font-family: "Source Sans Pro", sans-serif;
+        border: none;
+        border-radius: 3px;
+        color: #fff;
+        transition: all 0.5s;
+    }
+
+    &_banner-span {
+        background-color: #14a0c7;
+        transition: all 0.5s;
+    }
+}
+
+.footer {
+    background-color: #21232e;
+    margin-top: -50px;
+    transition: all 0.5s;
+
+    &-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 70px;
+        padding-bottom: 30px;
+    }
+
+    &_logo {
+        display: flex;
+        padding-top: 30px;
+    }
+
+    &-logo__text {
+        color: #fff;
+        margin-left: 15px;
+        line-height: 20px;
+        text-align: center;
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 22px;
+        line-height: 15px;
+        padding-top: 5px;
+    }
+
+    &-logo__text-span {
+        font-size: 10px;
+    }
+
+    &_text {
+        font-family: "Hind", sans-serif;
+        color: rgb(204, 204, 204);
+        font-size: 11px;
+        width: 240px;
+    }
+
+    &-cr {
+        font-family: "Hind", sans-serif;
+        color: rgb(204, 204, 204);
+        font-size: 11px;
+    }
+}
+
+@import "media";

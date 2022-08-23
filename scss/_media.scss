@@ -1,0 +1,171 @@
+@media (max-width: 800px) {
+    .section {
+        &_banner-flex {
+            margin-top: 50px;
+        }
+        &_banner {
+            width: 100%;
+        }
+
+        &_banner_heading {
+            padding-top: 20px;
+            padding-bottom: 5px;
+        }
+        &_banner_text {
+            padding-bottom: 20px;
+        }
+    }
+}
+
+@media (max-width: 720px) {
+    .header {
+        text-align: center;
+        &_heading {
+            padding-top: 10px;
+            font-size: 72px;
+            width: 100%;
+        }
+        &_text {
+            padding-top: 30px;
+            width: 100%;
+        }
+        &_button-login {
+            justify-content: space-around;
+            margin: 0 auto;
+        }
+        &_login {
+            padding-right: 0;
+        }
+    }
+    .footer {
+        text-align: center;
+    }
+}
+
+@media (max-width: 680px) {
+    .section {
+        &_card_wrap,
+        &_card {
+            margin-left: auto;
+            margin-right: auto;
+            width: 95%;
+            text-align: center;
+        }
+        &_card_right_container {
+            margin: 0 auto;
+            width: 90%;
+        }
+        &_card_heading,
+        &_card_text,
+        &_link {
+            margin: 0 auto;
+            padding-left: 0;
+            width: 90%;
+            max-height: 153px;
+        }
+    }
+}
+
+@media (max-width: 585px) {
+    .header {
+        &_heading {
+            font-size: 50px;
+        }
+        &_text {
+            padding-top: 20px;
+            font-size: 14px;
+        }
+        &_button-login {
+            padding-top: 30px;
+        }
+    }
+    .section {
+        &_card {
+            flex-direction: column;
+            width: 70%;
+        }
+        &_card_img {
+            margin: auto;
+        }
+    }
+    .footer {
+        &-wrap {
+            display: block;
+            margin: 0 auto;
+        }
+        &_logo {
+            width: 100%;
+            justify-content: center;
+            padding-top: 10px;
+        }
+        &_text {
+            margin: 10px auto 10px;
+        }
+        // &_logo {
+        //     width: auto;
+        //     margin: 0 auto;
+        //     padding-top: 0;
+        // }
+        // &-logo__text {
+        //     width: 100%;
+        // }
+    }
+}
+
+@media (max-width: 555px) {
+    .section {
+        &_banner {
+            display: block;
+            height: auto;
+            text-align: center;
+        }
+        &_banner_text {
+            padding-bottom: 10px;
+        }
+        &_banner_button {
+            margin-left: 0;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media (max-width: 520px) {
+    .header {
+        &_button-login,
+        &_login {
+            display: block;
+            width: 100%;
+        }
+
+        &_button {
+            margin-bottom: 10px;
+        }
+    }
+    .section {
+        &_card {
+            width: 80%;
+        }
+    }
+}
+
+@media (max-width: 385px) {
+    .header {
+        &_heading {
+            font-size: 40px;
+        }
+        &_button-login {
+            padding-top: 25px;
+            padding-bottom: 55px;
+        }
+    }
+    .section {
+        &_card {
+            width: 90%;
+        }
+        &_banner_button {
+            width: 90px;
+            height: 30px;
+        }
+    }
+}
